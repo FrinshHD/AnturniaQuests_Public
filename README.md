@@ -17,6 +17,11 @@ AnturniaQuests is a versatile quest plugin for Minecraft, allowing server admini
 
 **Commands:**
 - `/quests`: Open the ingame quest menu.
+- `/quests reload`: Reload the plugin configurations
+
+**Permissions:**
+- `quests.open`: permission to execute the /quests command
+- `quests.admin.reload`: permission to execute the /quests reload command
 
 **Special Note for Monetary Rewards:**
 If you intend to provide monetary rewards, ensure you have Vault and a compatible economy plugin installed on your server. This allows seamless integration with in-game currency systems.
