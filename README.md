@@ -47,6 +47,22 @@ We appreciate your feedback! Share your experiences, ideas, and suggestions on t
 database:
   type: sqlite #currently only sqlite is supported
 ```
+`messages.properties`:
+``` properties
+quests.tip.useMultipleTimes=&6Tip: &7You can complete this quest multiple times!
+quest.announce=&2{0} &7has completed the Quest &2{1}
+lore.alreadyCompleted=&a\u2714 &7You have already completed this quest &a\u2714
+lore.requirements=&4Requirements:
+lore.requirements.items.inInventory=&7 - &a{0}&7/{1} &7
+lore.requirements.items.notInInventory=&7 - &c{0}&7/{1} &7
+lore.rewards=&2Rewards:
+lore.rewards.item=&7 - {0}x {1}
+lore.rewards.money=&7 - ${0}
+lore.rewards.other=&7 - {0}x {1}
+inventory.heading.color=&2
+inventory.quest.color=&2
+updateAvailable=&7There is a new update available for the &2AnturniaQuests&7 plugin, version &2{0}&7 You are currently running version {1} Get the newest version here: &2https://www.spigotmc.org/resources/anturniaquests.113784/
+```
 `categories.yml`:
 ``` yml
 combat:
